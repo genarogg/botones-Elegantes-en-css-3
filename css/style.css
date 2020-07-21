@@ -45,3 +45,19 @@
     flex-wrap: wrap;
   }
   
+  a {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    border: 1px solid currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    will-change: transform;
+  }
+  
