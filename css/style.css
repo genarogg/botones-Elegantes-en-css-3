@@ -25,3 +25,10 @@
     justify-content: center;
     text-align: center;
   }
+  
+  h1,
+  h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
