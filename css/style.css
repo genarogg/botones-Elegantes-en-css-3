@@ -100,3 +100,10 @@
   .btn1:hover::after {
     transform: translateX(30%);
   }
+  
+  .btn2 {
+    color: #fc6103;
+  }
+
+
+  
