@@ -114,7 +114,17 @@
        transition: .5s ease-in-out;
   }
   
-
+  .btn2::before{
+      bottom: 0;
+      left: 0;
+      border-color: transparent transparent transparent #fc9303;
+  }
+  
+  .btn2::after{
+      top: 0;
+      right: 0;
+      border-color: transparent #fc9303 transparent  transparent ;
+  }
   
 
   
