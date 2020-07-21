@@ -61,3 +61,22 @@
     will-change: transform;
   }
   
+  .btn1 {
+    color: #ec063a;
+  }
+  
+  .btn1::before,
+  .btn1::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 40px solid #ff095f;
+    border-bottom: 40px solid #ff095f;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+  }
+  
+
