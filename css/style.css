@@ -89,3 +89,14 @@
     transform: translateX(100%);
   }
   
+  .btn1:hover {
+    color: #fff;
+  }
+  
+  .btn1:hover::before {
+    transform: translateX(-30%);
+  }
+  
+  .btn1:hover::after {
+    transform: translateX(30%);
+  }
