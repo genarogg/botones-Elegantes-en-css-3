@@ -6,3 +6,14 @@
   
 
   
+  header {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(rgba(0, 10, 0, 0.9), rgba(255, 255, 255, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
