@@ -104,6 +104,17 @@
   .btn2 {
     color: #fc6103;
   }
+  
+  .btn2::before,
+  .btn2::after {
+    position: absolute;
+       content: "";
+       border: 0px solid;
+       z-index:-1;
+       transition: .5s ease-in-out;
+  }
+  
 
+  
 
   
