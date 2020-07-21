@@ -79,4 +79,13 @@
     transition: 0.5s ease-in-out;
   }
   
-
+  .btn1::before {
+    border-right: 40px solid transparent;
+    transform: translateX(-100%);
+  }
+  
+  .btn1::after {
+    border-left: 40px solid transparent;
+    transform: translateX(100%);
+  }
+  
