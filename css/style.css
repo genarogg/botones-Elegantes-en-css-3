@@ -126,5 +126,12 @@
       border-color: transparent #fc9303 transparent  transparent ;
   }
   
-
+  .btn2:hover{
+      color:#fff;
+  }
+  
+  .btn2:hover::before , .btn2:hover::after{
+      border-width:  80px 260px;
+  }
+  
   
